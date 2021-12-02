@@ -20,6 +20,11 @@ public class SumOfInput
     
     public Integer oneToNumber(Integer numberToSum){
 
+        sum =0;
+
+        for ( int j =0 ; j<=numberToSum;j++) {
+            sum =sum+j;
+        }
         return sum;
     }
 
